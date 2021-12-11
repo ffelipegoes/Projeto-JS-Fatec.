@@ -1,5 +1,0 @@
-calc
-validador de idade
-jogo js
-
-num html
