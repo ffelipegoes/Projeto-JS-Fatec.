@@ -1,12 +1,12 @@
 const userInput =  document.querySelector("#user_input");
 var expression = "";
 
-press = (num) => {
+clique = (num) => {
   expression += num;
   userInput.value = expression;
 }
 
-equal = () => {
+igual = () => {
   userInput.value = eval(expression);
   expression = "";
 }

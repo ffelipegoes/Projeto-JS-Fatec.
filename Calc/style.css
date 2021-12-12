@@ -1,6 +1,6 @@
 body{
   overflow: hidden;
-  background: linear-gradient(#f4f4ed, white);
+  background: linear-gradient(#fff, white);
 }
 
 .container{
@@ -10,9 +10,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
-.calculator{
+.calculadora{
   width: 370px;
   margin: auto;
   border-radius: 2px;
@@ -33,7 +34,7 @@ body{
   font-size: 2rem;
 }
 
-.btn{
+.botao{
   width: 24%;
   height: 45px;
   border-radius: 1px;
@@ -43,7 +44,7 @@ body{
   background: whitesmoke;
 }
 
-.btnEqual{
+.botao_igual{
   width: 99.2%;
   height: 45px;
   border-radius: 1px;
@@ -53,12 +54,12 @@ body{
   background: whitesmoke;
 }
 
-.btn:hover, .btnEqual:hover{background-color: rgba(128, 128, 128, 0.1);}
+.botao:hover, .botao_igual:hover{background-color: rgba(128, 128, 128, 0.1);}
 
 @media(max-width:480px){
-  .btn{width: 23.4%;}
+  .botao{width: 23.4%;}
 }
 
 @media(max-width:320px){
-  .btn{width: 23%;}
+  .botao{width: 23%;}
 }
